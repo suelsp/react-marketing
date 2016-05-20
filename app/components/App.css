@@ -6,16 +6,15 @@
 .toggle-view img{
 	transition: all .2s ease-in-out;
 	width: 10px;
-	
+
 }
 .rotate-me img {
 	transform: rotate(90deg);
 	width: 10px;
-	
 }
 
-.line-id-th {
-	padding-left: 30px;
+.tr1 {
+	background-color: lightgray;
 }
 
 img {
@@ -27,6 +26,8 @@ table {
 	border: 1px solid black;
 }
 
+
+
 thead {
 	text-indent: 0px;
 	padding: 0px;
@@ -35,16 +36,28 @@ thead {
 
 .firstone {
 	width: 100px;
-	background-color: red;
-
 }
 
-th, td {
+
+td {
 	width: 0px;
     text-align: left;
     padding: 0px;
-    color: black;
-    background-color: lightblue;
-
+    color: black;  
+    transform: scale(1);
 }
 
+th {
+  	width: 0px;
+    text-align: left;
+    padding: 0px;
+    color: black;
+  	background-color: lightblue;
+    transform: scale(1);
+}
+
+
+td:hover {
+    background-color: lightgoldenrodyellow;
+    transform: scale(1.015);
+}
